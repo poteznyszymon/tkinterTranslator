@@ -23,6 +23,7 @@ def switchLan():
 window = ttk.Window()
 window.title("TranslatorApp")
 window.geometry('640x275')
+window.resizable(False, False)
 
 icon = ttk.PhotoImage(file='icon.png')
 window.iconphoto(0,icon)
